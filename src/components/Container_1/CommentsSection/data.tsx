@@ -24,6 +24,11 @@ const commentsSectionData = {
                 role: 'Dezembro/2023'
             },
             {
+                testimony: 'Eu sempre quis arrumar meu sorriso, mas tinha trauma do aparelho tradicional, que usei na adolescência e larguei. Foi graças a Dra Larissa e ao Invisalign que consegui arrumar meu sorriso, resignificando a experiência traumática e obtendo resultados rápidos e permanentes. A Lari é um excelente profissional que explica tudo para o paciente, desde o início, com muito carinho e atenção. Sempre preocupada com o nosso bem estar e conforto. Eu amei os resultados! Super indico!!! ✨✨✨',
+                name: 'Letícia',
+                role: 'Dezembro/2024'
+            },
+            {
                 testimony: 'Meu tratamento com Invisalign foi maravilhoso. Alinhou meu sorriso, corrigiu minha mordida. Enfim, sucesso funcional e estético. Resultado realmente muito bom! A diferença antes X depois chama muita atenção (meus amigos e familiares comentam o quanto melhorou). Sem falar também na estética durante o tratamento… alinhadores transparentes, nada de sorriso metálico.',
                 name: 'Anna Carolina',
                 role: 'Janeiro/2024'
