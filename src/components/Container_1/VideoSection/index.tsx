@@ -1,12 +1,21 @@
-import { Button, Flex, Heading, Link, Text } from "@chakra-ui/react";
+import { Button, Flex, Heading, Link, Text, useBreakpointValue } from "@chakra-ui/react";
 import { videoSectionData } from "./data";
 
 
 export function VideoSection() {
 
+    const iframeBreakpoints = useBreakpointValue({
+        base:'256px',
+        sm: '512px',
+        md: '512px',
+        lg: '512px',
+        xl: '512px',
+    })
+
     return (
         <Flex
             w='100%'
+            maxW='1920px'
             bgColor={'beige.100'}
             px={['1rem', '1rem', '3rem', '3rem']}
             flexDir={['column', 'column', 'column', 'column', 'row']}
@@ -17,18 +26,15 @@ export function VideoSection() {
         >
             <Flex
                 w={['100%', '100%', '100%', '100%', '100%']}
-                minH={['16rem', '16rem', '24rem', '24rem']}
-                bgImage={'static/img/container_1/videoSection/video-background.png'}
-                bgRepeat={'no-repeat'}
-                bgSize={'cover'}
-            >
 
+            >
+                <iframe width="100%" height={iframeBreakpoints} src="https://www.youtube.com/embed/Wxo0H2erUco?si=6TM7-dmxKOdtgF5o" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
             </Flex>
 
             <Flex
                 flexDir={['column']}
                 w='100%'
-
+                my='auto'
                 gap={[12, 12, 8, 8]}
                 p={[2, 2, 2, 2, 0]}
                 textAlign={['left', 'left', 'left', 'left', 'right']}

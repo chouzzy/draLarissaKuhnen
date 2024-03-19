@@ -30,6 +30,7 @@ export function Container_1() {
             centerContent={true}
             p={0}
             m={0}
+            
         >
             {isMobileVersion ?
                 <Flex
@@ -84,7 +85,7 @@ export function Container_1() {
 
                 </Flex>
                 :
-                <Flex flexDir={'column'} >
+                <Flex flexDir={'column'} maxW='1920px' >
                     <Header />
                     <MainSection />
 

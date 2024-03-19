@@ -12,6 +12,7 @@ export function SpecialitiesSection() {
     return (
         <Flex
             w='100%'
+            maxW='1920px'
             flexDir='column'
             px={['2rem','2rem','2rem','3rem']}
             gap={[2,2,12,12]}

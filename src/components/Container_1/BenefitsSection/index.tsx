@@ -8,6 +8,7 @@ export function BenefitsSection() {
     return (
         <Flex
             w='100%'
+            maxW='1920px'
             mt={["-4px"]}
             pt={['8rem', '8rem', '10rem', '20rem']}
             pb={'8rem'}

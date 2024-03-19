@@ -25,6 +25,7 @@ export function CommentsSection() {
 
         <Flex
             w='100%'
+            maxW='1920px'
             p={['1rem', '1rem', '3rem', '3rem']}
             mt={[16,16,0,0]}
             gap={8}

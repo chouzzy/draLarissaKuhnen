@@ -7,6 +7,7 @@ export function StepsSection() {
     return (
         <Flex
             w='100%'
+            maxW='1920px'
             bgColor={'beige.100'}
             flexDir={['column', 'column', 'column', 'column', 'row']}
             pt={[16, 16, 16, 16]}

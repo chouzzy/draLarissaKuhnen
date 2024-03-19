@@ -10,6 +10,7 @@ export function AboutSection() {
     return (
         <Flex
             w='100%'
+            maxW='1920px'
             pt={['8rem', '8rem', '12rem', '20rem']}
             pb={[12,12,'8rem','8rem']}
             bgColor={'backgroundLight'}
